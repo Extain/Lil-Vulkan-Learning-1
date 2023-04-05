@@ -1,4 +1,4 @@
-Lil Vulkan Learning
+# Lil Vulkan Learning
 
 Just a project to learn how vulkan works as well as c++
 

@@ -145,10 +145,12 @@
   <ItemGroup>
     <ClCompile Include="LilVulkan.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Vulkan.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LilVulkan.h" />
+    <ClInclude Include="Vulkan.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

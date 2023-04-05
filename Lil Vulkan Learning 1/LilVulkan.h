@@ -2,6 +2,7 @@
 #define LILVULKAN_H
 
 #include "Window.h"
+#include "Vulkan.h"
 
 class LilVulkan
 {
@@ -16,6 +17,7 @@ private:
 
 private:
 	Window* window;
+	Vulkan* vulkan;
 };
 
 #endif

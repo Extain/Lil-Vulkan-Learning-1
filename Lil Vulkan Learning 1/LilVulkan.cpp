@@ -21,7 +21,10 @@ void LilVulkan::initWindow() {
 }
 
 void LilVulkan::initVulkan() {
+	vulkan = new Vulkan();
 
+	vulkan->createInstance();
+	vulkan->checkExtensions();
 }
 
 void LilVulkan::mainLoop() {
@@ -34,5 +37,6 @@ void LilVulkan::mainLoop() {
 }
 
 void LilVulkan::cleanup() {
+	delete vulkan;
 	delete window;
 }
